@@ -1,0 +1,69 @@
+body {
+
+    color: darkblue;
+    background-image: url("fondo.jpg");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+p {
+    color: black;
+}
+
+/* Selector de etiqueta:
+Vamos a seleccionar el elemento 
+por su nombre y va a cambiar a 
+todos los que se llamen igual. */
+
+h1 {
+    color: darkblue;
+
+}
+
+.brain {
+    border: 11px solid #6d0b0b;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+/* Selector de ID
+Selector de ID me ayudará a editar un elemento a la vez,
+Es para cuando solo queremos hacer cambios a un elemento.
+Va a cambiar la etiqueta con el atributo
+id="nombre-id"
+Y vamos a llamar al elemento por
+el operador de numeral
+#nombre-id
+*/
+#logo {
+    width: 150px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+#navegacion {
+    display: inline;
+}
+/* el display nos ayuda a acomodar elementos; unos con otros y el elemento contener con los que tiene dentro::after
+display inine;    
+display: blok; */
+
+#navegacion li {
+    display: inline;
+    background-color: rgb(244, 248, 5);
+    padding: 10px 10px 10px 10px;
+    font-style:oblique;
+    font-weight: bold;
+}
